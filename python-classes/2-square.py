@@ -4,6 +4,7 @@
 
 class Square:
     """ This class defines a square by its size and returns its area"""
+
     def __init__(self, size=0):
         """ Initialize the size """
         if not isinstance(size, int):
