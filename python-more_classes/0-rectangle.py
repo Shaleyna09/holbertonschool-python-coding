@@ -1,18 +1,18 @@
 #!/usr/bin/python3
-"""Module that defines a Rectangle class with private width and height."""
+"""Module that defines a Rectangle class."""
 
 
 class Rectangle:
-    """Represents a rectangle with width and height."""
+    """Class that defines a rectangle with width and height."""
 
     def __init__(self, width=0, height=0):
-        """Initializes the rectangle with optional width and height."""
+        """Initialize rectangle with optional width and height."""
         self.width = width
         self.height = height
 
     @property
     def width(self):
-        """Retrieve the width of the rectangle."""
+        """Get the width of the rectangle."""
         return self.__width
 
     @width.setter
@@ -26,7 +26,7 @@ class Rectangle:
 
     @property
     def height(self):
-        """Retrieve the height of the rectangle."""
+        """Get the height of the rectangle."""
         return self.__height
 
     @height.setter
